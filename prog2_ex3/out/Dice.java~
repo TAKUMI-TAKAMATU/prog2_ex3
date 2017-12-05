@@ -1,0 +1,17 @@
+package jp.ac.uryukyu.ie.ex3.pair24;
+
+public class Dice{
+    private int value;
+    
+    public void Dice(){
+	
+
+    public int getValue(){return value;}
+    public void setValue(int value){this.value = value;}
+
+    public void play(){
+	value_play  = (int)(Math.random()*3)+1;
+	value.setValue(value_play);
+    }
+}
+}
